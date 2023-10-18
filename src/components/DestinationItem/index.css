@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.img {
+  height: 100px;
+  width: 150px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.paragraph {
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: 500;
+}

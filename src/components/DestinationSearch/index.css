@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-container {
+  background-color: #ffffff;
+  box-shadow: 0px 10px #f1f5f9;
+  height: 100%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  background-color: #f1f5f9;
+  border-width: 0px;
+  display: flex;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 35px;
+}
+
+.search-bar {
+  background-color: transparent;
+  border-width: 0;
+  border-style: none;
+  border-color: #f1f5f9;
+  outline: none;
+  width: 120px;
+  height: 10px;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
